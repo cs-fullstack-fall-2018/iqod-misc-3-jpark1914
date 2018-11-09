@@ -1,7 +1,8 @@
-number = 12;
+integer = 12;
 
 def numberGenerator(num):
-    for x in range (0,num):
+    number = int(num)
+    for x in range (0,number):
         print(str(x)*x)
 
-numberGenerator(number)
+numberGenerator(11)
